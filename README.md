@@ -22,7 +22,7 @@ Navegador atualizado (Google Chrome, Mozilla Firefox, Opera GX, etc.)
 
 1. Clone este repositório:
    ```bash
-   git clone https://github.com/seu-usuario/seu-repositorio.git
+   git clone https://github.com/Arroyda/Formacao-HTML-Web-Developer
    ```
 2. Abra a pasta do projeto na sua IDE de preferência.
 3. Navegue pelos arquivos HTML e CSS para acompanhar os exercícios.
