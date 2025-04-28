@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <!-- AutoComplete = O Navegador poderá salvar o login ou dados do Form -->
+    <!-- Method Post = Irá enviar o dados | Get = Puxa os dados (Em caso de Login ou Senhas usar o Metodo POST, ele é o correto e mais seguro!) -->
+    <!-- OnSubimit = Utilizado para utilizar JavaScript ao Clicar no Botão -->
+    <form name="signup" onsubmit="alert('Formulario enviado!')" autocomplete="off" method="get" action="#">
+        <!-- Placeholder = Serve para deixar um texto de exemplo nos Formularios -->
+        <h2>Nome: <input type="text" name="name" placeholder="João"></h2>
+        <h2>Idade: <input type="number" name="age" placeholder="21"></h2>
+        <h2>Senha: <input type="password" name="password" placeholder="123"></h2>
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>
